@@ -1,0 +1,7 @@
+[Unit]
+Description=Flask app service
+After=networking.service
+
+[Service]
+WorkingDirectory=/home/wigor/app
+ExecStart=/home/wigor/app/venv/
